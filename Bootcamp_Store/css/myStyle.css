@@ -1,0 +1,207 @@
+/******************************* Style Added by Me **************************/
+.dropdown {
+	position: relative;
+	display: inline-block;
+	z-index: 999;
+	  
+}
+
+.dropdown a {
+	font-size: 16px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	margin: 0;
+}
+
+.dropbtn:hover {
+	border-bottom: 2px solid black;
+	color: black;
+}
+
+.dropdown #nav_item:hover{
+	background-color: white;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding-top: 20px;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content-col{
+	margin-right: 120px;
+}
+.dropdown:hover .dropdown-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.fa-caret-down{
+	padding-left: 5px;
+}
+.on-sale{
+	border: 5px solid pink;
+}
+/************************* for footer ****************************/
+
+footer{
+	
+	background-color: black;
+	color: white;
+}
+.foot-container{
+	padding:20px 0px 10px 0px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.item-table{
+	margin-right:20px;
+}
+.white-color{
+	color: white;
+}
+.fa-brands{
+	margin: 10px;
+}
+.foot-table td, th{
+	padding: 20px 80px 20px 80px;
+	/* margin: 20px; */
+}
+.foot-table p{
+	color: gray;
+	font-size: 0.8em;
+}
+.fa-telegram{
+	margin: 0px;
+}
+
+#telegram{
+	width: 41px;
+    height: 43px;
+	
+	background-color: blue;
+}
+.mail{
+	padding: 10px;
+	color: black
+}
+
+/************************* for Basket****************************/
+.basket-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.basket-head{
+	margin: 10px 0px 20px 0px;
+}
+.basket-table{
+	border-top: 2px solid black;
+	/* align-items: center; */
+}
+.basket-items{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.basket-items th, td{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 2rem;
+	/* border: 2px solid red; */
+}
+
+/* .item-Id{
+	display: none;
+} */
+ /* *****************************BacktoTopButton************************** */
+html{
+	scroll-behavior: smooth;
+}
+ #top {
+	display: none;
+	position: fixed;
+	width: 10%;
+	bottom: 20px;
+	right: 45%;
+	z-index: 999;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: aliceblue;
+	color: black;
+	cursor: pointer;
+	padding: 15px;
+  }
+
+  .banner {
+	width: 100%;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 45px;
+	z-index: 10;
+  }
+  
+  .slide {
+	width: 100%;
+	max-width: 2000px;
+	height: 250px;
+	position: absolute;
+	transition: all 0.5s;
+  }
+  
+  .slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .btn {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	border: none;
+	border-radius: 50%;
+	z-index: 10px;
+	cursor: pointer;
+	background-color: #fff;
+	font-size: 18px;
+  }
+  
+  .btn:active {
+	transform: scale(1.1);
+  }
+  
+  .btn-prev {
+	top: 35%;
+	left: 2%;
+  }
+  
+  .btn-next {
+	top: 35%;
+	right: 2%;
+  }
