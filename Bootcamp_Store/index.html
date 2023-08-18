@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootcamp store</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+    integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="header__logo"></a>
+            <div class="row">
+                <div class="col-xs-offset-2 col-sm-7 col-lg-8">
+                    <form action="" class="header__search">
+                        <i class="fas fa-search header__search-icon"></i>
+                        <input class="header__search-input" type="search" placeholder="What are you looking for?">
+                        <div class="header__search-dropdown">
+                            <span>All categories</span>
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                        <button class="primary-btn header__search-btn">Search</button>
+                    </form>
+                </div>
+                <div class="col-sm-3 col-lg-2">
+                    <ul class="header__user-nav">
+                        <li class="header__user-nav-item">
+                            <a class="header__user-nav-link" href="#">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </a>
+                        </li>
+                        <li class="header__user-nav-item">
+                            <a class="header__user-nav-link" href="#">
+                                <i class="fas fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="header__user-nav-item header__user-nav-item--cart">
+                            <div class="header__user-nav-link">
+                                <i class="fas fa-shopping-cart"></i>
+                                <div class="header__user-nav-item-badge">2</div>
+                            </div>
+
+                            <div class="mini-cart">
+                                <div class="mini-cart__message">Your cart</div>
+                                <ul class="mini-cart__product-list">
+                                    <li class="mini-cart__product-item">
+                                        <div class="mini-cart__product-image">
+                                            <img src="img/img1.png" alt="mini cart image">
+                                        </div>
+                                        <div class="mini-cart__product-info">
+                                            <a href="#" class="mini-cart__product-name">Shimmer blouse</a>
+                                            <div class="mini-cart__product-info-item">
+                                                <span>Color:</span>
+                                                <span>Black</span>
+                                            </div>
+                                            <div class="mini-cart__product-info-item">
+                                                <span>Size:</span>
+                                                <span>XL</span>
+                                            </div>
+                                            <div class="mini-cart__product-info-item">
+                                                <span>QTY:</span>
+                                                <span>1</span>
+                                            </div>
+                                            <div class="mini-cart__product-price">$85.00</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="mini-cart__controls">
+                                    <div class="mini-cart__controls-total">
+                                        <div class="mini-cart__controls-price-title">Order Subtotal:</div>
+                                        <div class="mini-cart__controls-price">$85.00</div>
+                                    </div>
+                                    <a href="#" class="primary-btn mini-cart__controls-link">
+                                        View cart
+                                    </a>
+                                    <a href="#" class="mini-cart__controls-link mini-cart__controls-link--secondary">
+                                        Checkout
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <div class="dropdown">
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-item-link dropbtn">NEW ARRIVALS<i class="fa-solid fa-caret-down"></i></a>
+                                </li>
+                                <div class="dropdown-content">
+                                    <div class="dropdown-content-col">
+                                        <!-- <h4>MEN</h4> -->
+                                            <ul>
+                                                <li><a href="#"><h4>MEN</h4></a></li>
+                                                <li><a href="#">Tops</a></li>
+                                                <li><a href="#">Pants</a></li>
+                                                <li><a href="#">Dresses & Skirts</a></li>
+                                                <li><a href="#">Jackets</a></li>
+                                                <li><a href="#">Swimwear</a></li>
+                                                <li><a href="#">Accessories</a></li>
+                                                <li><a href="#">Footwear</a></li>
+                                            </ul>
+                                        <a href="#" style="color: blue">Show All</a>
+                                    </div>
+                                    <div class="dropdown-content-col">
+                                        
+                                            <ul>
+                                                <li><a href="#"><h4>MEN</h4></a></li>
+                                                <li><a href="#">Tops</a></li>
+                                                <li><a href="#">Pants</a></li>
+                                                <li><a href="#">Dresses & Skirts</a></li>
+                                                <li><a href="#">Jackets</a></li>
+                                                <li><a href="#">Swimwear</a></li>
+                                                <li><a href="#">Accessories</a></li>
+                                                <li><a href="#">Footwear</a></li>
+                                            </ul>
+                                        <a href="#" style="color: blue">Show All</a>
+                                    </div>
+                                    <div class="dropdown-content-col">
+                                            <ul>
+                                                <li><a href="#"><h4>MEN</h4></a></li>
+                                                <li><a href="#">Tops</a></li>
+                                                <li><a href="#">Pants</a></li>
+                                                <li><a href="#">Dresses & Skirts</a></li>
+                                                <li><a href="#">Jackets</a></li>
+                                                <li><a href="#">Swimwear</a></li>
+                                                <li><a href="#">Accessories</a></li>
+                                                <li><a href="#">Footwear</a></li>
+                                            </ul>
+                                        <a href="#" style="color: blue">Show All</a>
+                                    </div>
+                                    <div class="dropdown-content-col">
+                                        <img src="img/drop2.png" alt="" id="dropdown-img">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="dropdown">
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-item-link dropbtn">Womens<i class="fa-solid fa-caret-down"></i></a>
+                                </li>
+                                <div class="dropdown-content">
+                                    <div class="dropdown-content-col">
+                                        <!-- <h4>MEN</h4> -->
+                                            <ul>
+                                                <li><a href="#"><h4>MEN</h4></a></li>
+                                                <li><a href="#">Tops</a></li>
+                                                <li><a href="#">Pants</a></li>
+                                                <li><a href="#">Dresses & Skirts</a></li>
+                                                <li><a href="#">Jackets</a></li>
+                                                <li><a href="#">Swimwear</a></li>
+                                                <li><a href="#">Accessories</a></li>
+                                                <li><a href="#">Footwear</a></li>
+                                            </ul>
+                                        <a href="#" style="color: blue">Show All</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-item-link dropbtn">MENS<i class="fa-solid fa-caret-down"></i></a>
+                                </li>
+                                <div class="dropdown-content">
+                                    <div class="dropdown-content-col">
+                                        <!-- <h4>MEN</h4> -->
+                                            <ul>
+                                                <li><a href="#"><h4>MEN</h4></a></li>
+                                                <li><a href="#">Tops</a></li>
+                                                <li><a href="#">Pants</a></li>
+                                                <li><a href="#">Dresses & Skirts</a></li>
+                                                <li><a href="#">Jackets</a></li>
+                                                <li><a href="#">Swimwear</a></li>
+                                                <li><a href="#">Accessories</a></li>
+                                                <li><a href="#">Footwear</a></li>
+                                            </ul>
+                                        <a href="#" style="color: blue">Show All</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-item-link">Electronics</a>
+                            </li>
+                            <li class="header__nav-item active">
+                                <a href="#" class="header__nav-item-link">Top sellers</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-item-link">About us</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-item-link">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+
+        <div class="slide">
+          <img
+            src="img/banner.png"
+            alt=""
+          />
+        </div>
+  
+        <div class="slide">
+          <img src="img/banner2.png" alt="" />
+        </div>
+  
+        <div class="slide">
+          <img src="img/banner3.png" alt="" />
+        </div>
+  
+        <button class="btn btn-next">></button>
+        <button class="btn btn-prev">< </button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <aside class="col-sm-3">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__item-link" href="#">Home</a>
+                    </li>
+                    <li class="breadcrumbs__item">Mens</li>
+                </ul>
+
+                <div class="left-nav">
+                    <h3 class="left-nav__current-category">Shop mens</h3>
+                    <ul class="left-nav__list">
+                        <li class="left-nav__list-item opened">
+                            <span class="left-nav__list-name">Clothing</span>
+                            <ul class="left-nav__sublist">
+                                <li class="left-nav__sublist-item">
+                                    <a href="#" class="left-nav__sublist-link">Suits</a>
+                                </li>
+                                <li class="left-nav__sublist-item">
+                                    <a href="#" class="left-nav__sublist-link">Jackets & Coats</a>
+                                </li>
+                                <li class="left-nav__sublist-item active">
+                                    <a href="#" class="left-nav__sublist-link">Shirts</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="left-nav__list-item">
+                            <span class="left-nav__list-name">Footwear</span>
+                        </li>
+                        <li class="left-nav__list-item">
+                            <span class="left-nav__list-name">Accessories</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filters">
+                    <ul class="filters__list">
+                        <li class="filters__list-item opened">
+                            <span class="filters__list-name">Color</span>
+                            <ul class="filters__sublist filters__list-colors">
+                                <li class="filters__color-swatch red-color">
+                                    <a href="#" class="filters__color-swatch-link"></a>
+                                </li>
+
+                                <li class="filters__color-swatch green-color">
+                                    <a href="#" class="filters__color-swatch-link"></a>
+                                </li>
+
+                                <li class="filters__color-swatch gray-color">
+                                    <a href="#" class="filters__color-swatch-link"></a>
+                                </li>
+
+                                <li class="filters__color-swatch gold-color">
+                                    <a href="#" class="filters__color-swatch-link"></a>
+                                </li>
+
+                                <li class="filters__color-swatch rose-color">
+                                    <a href="#" class="filters__color-swatch-link"></a>
+                                </li>
+
+                                <li class="filters__color-swatch aqua-color">
+                                    <a href="#" class="filters__color-swatch-link"></a>
+                                </li>
+
+                                <li class="filters__color-swatch yellow-color">
+                                    <a href="#" class="filters__color-swatch-link"></a>
+                                </li>
+
+                                <li class="filters__color-swatch multicolored">
+                                    <a href="#" class="filters__color-swatch-link"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="filters__list-item opened">
+                            <span class="filters__list-name">Size</span>
+                            <ul class="filters__sublist">
+                                <li class="filters__size-swatch">
+                                    <a href="#" class="filters__size-swatch-link">S</a>
+                                </li>
+
+                                <li class="filters__size-swatch">
+                                    <a href="#" class="filters__size-swatch-link">M</a>
+                                </li>
+
+                                <li class="filters__size-swatch">
+                                    <a href="#" class="filters__size-swatch-link">L</a>
+                                </li>
+
+                                <li class="filters__size-swatch">
+                                    <a href="#" class="filters__size-swatch-link">XL</a>
+                                </li>
+                                
+                                <li class="filters__size-swatch">
+                                    <a href="#" class="filters__size-swatch-link">XL</a>
+                                </li>
+                                
+                                <li class="filters__size-swatch">
+                                    <a href="#" class="filters__size-swatch-link">XL</a>
+                                </li>
+                                
+                                <li class="filters__size-swatch">
+                                    <a href="#" class="filters__size-swatch-link">XL</a>
+                                </li>
+                            
+                            </ul>
+                        </li>
+                        <li class="filters__list-item opened">
+                            <span class="filters__list-name">Price</span>
+
+                            <a href="#" class="filters__clear-btn">Clear</a>
+
+                            <ul class="filters__sublist">
+                                <li class="filters__checkbox-item">
+                                    <label class="checkbox-container">
+                                        $50.00 - $99.99
+                                        <input class="primary-checkbox" type="checkbox" value="50-100">
+                                        <span class="checkbox-mark"></span>
+                                    </label>
+                                </li>
+                                <li class="filters__checkbox-item">
+                                    <label class="checkbox-container">
+                                        $100.00 - $199.99
+                                        <input class="primary-checkbox" type="checkbox" value="100-200">
+                                        <span class="checkbox-mark"></span>
+                                    </label>
+                                </li>
+                                <li class="filters__checkbox-item">
+                                    <label class="checkbox-container">
+                                        $200.00 - $399.99
+                                        <input class="primary-checkbox" type="checkbox" value="200-400">
+                                        <span class="checkbox-mark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="filters__list-item opened">
+                            <span class="filters__list-name">Occasion</span>
+                            <ul class="filters__sublist">
+                                <li class="filters__checkbox-item">
+                                    <label class="checkbox-container">
+                                        Casual
+                                        <input class="primary-checkbox" type="checkbox" value="casual">
+                                        <span class="checkbox-mark"></span>
+                                    </label>
+                                </li>
+                                <li class="filters__checkbox-item">
+                                    <label class="checkbox-container">
+                                        Comfort
+                                        <input class="primary-checkbox" type="checkbox" value="comfort">
+                                        <span class="checkbox-mark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <section class="col-sm-9">
+                <div class="control-panel">
+                    <div class="control-panel__wrap">
+                        <div class="control-panel__select-wrap">
+                            <label>
+                                <select class="control-panel__select" name="sort-by" id="sort-by">
+                                    <option value="0">Best Matches</option>
+                                    <option value="1">Price: Low to High</option>
+                                    <option value="2">Price: High to Low</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="control-panel__select-wrap">
+                            <label>
+                                <select class="control-panel__select" name="items-per-page" id="items-per-page">
+                                    <option value="6">6</option>
+                                    <option value="12">12</option>
+                                    <option value="18">18</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="control-panel__toggle-view">
+                        <button type="button" class="control-panel__toggle-view-btn active">
+                            <i class="fas fa-th"></i>
+                        </button>
+                        <button type="button" class="control-panel__toggle-view-btn">
+                            <i class="fas fa-list"></i>
+                        </button>
+                    </div>
+                </div>
+                <ul class="product-list">
+                    <li class="product-item" id="item1">
+                        <div class="product-item__badge">Sale</div>
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img1.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item2">
+                        <div class="product-item__badge">Sale</div>
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img2.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$170.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item3">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard John shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$240.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item4">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img4.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Sam shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$100.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item5">
+                        <div class="product-item__badge">Sale</div>
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img5.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Tom shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$80.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item6">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img6.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$240.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item7">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item8">
+                        <div class="product-item__badge">Sale</div>
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item9">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item10">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item11">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item12">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item13">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item14">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item15">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    <li class="product-item" id="item16">
+                        <div class="product-item__rating">
+                            <div class="product-item__rating-wrap">
+                                <div class="product-item__rating--off">★★★★★</div>
+                                <div class="product-item__rating--on" style="width: 85%">★★★★★</div>
+                            </div>
+                            <span class="product-item__rating-count">22</span>
+                        </div>
+                        <div class="product-item__image">
+                            <img src="img/img3.png" alt="product image">
+                        </div>
+                        <a href="#" class="product-item__name">Standard Jerry shirt</a>
+                        <span class="product-item__promotion">Limited-time deal</span>
+                        <div class="product-item__price">$140.00</div>
+                        <button type="button" class="primary-btn product-item__add-btn">Add to cart</button>
+                    </li>
+                    
+                </ul>
+                <div class="basket-container">
+                    <div class="basket-head"><h1>My Basket:</h1></div>
+                    <div class="basket-table">
+                        <table class="basket-items">
+                            <tr>
+                                <th>ID</th>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                            </tr>
+                            <tbody id="added-item">
+                                <!-- This area will contain the added item-->
+                            </tbody>
+                            <tbody id="basket-total">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-container">
+            <div class="item-table">
+                <table class="foot-table">
+                    <tr>
+                        <td> <h4>FOLLOW US</h4></td>
+                    </tr>
+                    <TR>
+                        <td>
+                            <a href=""><i class="fa-brands fa-facebook fa-2xl"></i></a><a href=""><i class="fa-brands fa-twitter fa-2xl"></i></a><a href=""><i class="fa-brands fa-google-plus-g fa-2xl"></i></a><a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a><a href=""><i class="fa-brands fa-linkedin-in fa-2xl"></i></a>
+                        </td>
+                    </TR>
+                    <tr>
+                        <td><h4>GET SPECIAL OFFERS & NEWS ON THE LATEST STYLES</h4></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" placeholder = "Enter your Email Address" class="mail"><button id="telegram"><i class="fa-brands fa-telegram fa-2xl white-color"></i></td></button >
+                    </tr>
+                    <tr>
+                        <td id="responseContent"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item-table">
+                <table class="foot-table">
+                    <tr>
+                        <th>  ACCOUNT</th>
+                        <th> CUSTOMER SERVICE</th>
+                        <th>ABOUT STORE</th>
+                    </tr>
+                    <tr>
+                        <td><p>My Account</p></td>
+                        <td><p>Contact Us</p></td>
+                        <td><p>About Us</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Check Order</p></td>
+                        <td><p>Gift Certificates</p></td>
+                        <td><p>Terms & Conditions</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wish List</p></td>
+                        <td><p>Help</p></td>
+                        <td><p>Privacy Policy</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Gift Registry</p></td>
+                        <td><p>Site Map</p></td>
+                        <td><p>Jobs</p></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src = "js/script.js"></script>
+    <!-- <script src="js/script_jquery.js"></script> -->
+    <script type="module" src="js/practice10/main.js"></script>
+    <!-- <script src="app_assignment8.js"></script> -->
+</body>
+</html>
